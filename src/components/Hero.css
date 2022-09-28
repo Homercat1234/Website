@@ -1,0 +1,14 @@
+.hero-container {
+    background-image: url("https://miro.medium.com/max/1200/0*IkWU1Fel11qaqA8t");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}

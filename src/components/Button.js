@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-const STYLES = ["btn--primary", "btn-outline"];
+const STYLES = ["btn--primary", "btn--outline"];
 const SIZES = ["btn--medium", "btn--large"];
 
 function Button(
@@ -13,7 +13,7 @@ function Button(
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
   return (
     <button
-      className={"btn ${checkButtonStyle} ${checkButtonSize}"}
+      className={"btn " + (checkButtonStyle) + " " + (checkButtonSize)}
       type={type}
       onClick={onClick}
       disabled={disabled}
