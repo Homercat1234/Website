@@ -4,16 +4,14 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <>
+    <div className="background">
       <div className="hero-container">
-        <h1>ADVENTURE AWAITS</h1>
-        <p>What are you wating for?</p>
         <div className="hero-btns">
-          <Button buttonStyle="btn--outline" buttonSize="btn--large">My Work</Button>
-          <Button buttonStyle="btn--primary" buttonSize="btn--large">GitHub!</Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large" Style='border-radius: 2px 0 0 2px;'>My Work</Button>
+          <Button buttonStyle="btn--primary" buttonSize="btn--large" Style='border-radius: 0 2px 2px 0;'>GitHub!</Button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
