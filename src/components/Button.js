@@ -3,7 +3,6 @@ import "./Button.css";
 
 const STYLES = ["btn--primary", "btn--outline"];
 const SIZES = ["btn--medium", "btn--large"];
-const STICK = ["btn--stick"];
 
 function Button({
   children,
@@ -11,7 +10,6 @@ function Button({
   onClick,
   buttonStyle,
   buttonSize,
-  stick,
   disabled,
   ...props
 }) {
@@ -19,11 +17,10 @@ function Button({
     ? buttonStyle
     : STYLES[0];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-  const checkStick = STICK.includes(stick) ? stick : STICK[0];
   return (
     <button
       className={
-        "btn " + checkButtonStyle + " " + checkStick + " " + checkButtonSize
+        "btn " + checkButtonStyle + " " + checkButtonSize
       }
       type={type}
       onClick={onClick}
