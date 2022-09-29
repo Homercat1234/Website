@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Youtube from "./assests/youtube.png";
+import Youtube from "./assets/youtube.png";
 
 function Footer() {
   return (

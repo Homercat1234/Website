@@ -41,6 +41,12 @@
   align-items: center;
 }
 
+.navbar-logo img {
+  height: 9%;
+  width: 9%;
+  display: flex;
+}
+
 .nav-links {
   width: 40%;
   display: flex;
