@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar";
-import Button from "./components/Button";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,8 +12,10 @@ function App() {
         <Navbar />
       </Router>
       <Hero />
+      <Router>
+        <Footer />
+      </Router>
     </>
-    
   );
 }
 

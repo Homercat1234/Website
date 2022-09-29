@@ -1,10 +1,10 @@
 :root {
   --primary: white;
-  --secondary: #353535;
+  --secondary: #1B1212;
 }
 
 * {
-  font-family: sans-serif;
+  font-family:  "serif", "Didot";
   margin: 0;
   padding: 0;
   box-sizing: border-box;

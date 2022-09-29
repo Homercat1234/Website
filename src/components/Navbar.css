@@ -6,14 +6,16 @@
   box-sizing: border-box;
   width: 100%;
   min-height: 3.5em;
-  display: flex;
-  justify-content: center;
   align-items: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: var(--primary);
-  background: linear-gradient(var(--secondary), black)
+  background: linear-gradient(var(--secondary), black);
+  font-weight: bold;
+  font-size: 1.2rem;
+  z-index: 1
+
 }
 
 .navbar a {
@@ -36,7 +38,6 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
   display: flex;
   align-items: center;
 }
