@@ -4,6 +4,8 @@
     outline: none;
     border: none;
     cursor: pointer;
+    flex-direction: column;
+    display: flexbox;
 }
 
 .btn--primary {

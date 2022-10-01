@@ -5,7 +5,7 @@
   position: sticky;
   box-sizing: border-box;
   width: 100%;
-  min-height: 3.5em;
+  height: 7vh;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -15,6 +15,7 @@
   font-weight: bold;
   font-size: 1.2rem;
   z-index: 1;
+  border-bottom: 1px solid white;
 }
 
 .navbar a {
@@ -41,10 +42,12 @@
   align-items: center;
 }
 
-.navbar-logo img {
-  height: 9%;
-  width: 9%;
+.navbar img {
   display: flex;
+  height: auto;
+  width: 60%;
+  object-fit: scale-down;
+
 }
 
 .nav-links {

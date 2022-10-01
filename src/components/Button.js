@@ -10,6 +10,7 @@ function Button({
   onClick,
   buttonStyle,
   buttonSize,
+  buttonPosition,
   disabled,
   ...props
 }) {
@@ -17,10 +18,11 @@ function Button({
     ? buttonStyle
     : STYLES[0];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+  const checkButtonPostion = buttonPosition ? buttonPosition : "";
   return (
     <button
       className={
-        "btn " + checkButtonStyle + " " + checkButtonSize
+        "btn " + checkButtonStyle + " " + checkButtonSize + " " + checkButtonPostion
       }
       type={type}
       onClick={onClick}
